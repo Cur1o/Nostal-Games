@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+	<head> <!-- Meta Information über dieser Seite -->
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>NostalGames</title>
+		<link rel="stylesheet" type="text/css "href="../css/Darstellunghell.css"/> <!-- CSS einbinden -->
+		<style>
+			h1 , h2{Color:#ffcc00;}
+			table{	
+				background-color: #133518; 
+			 
+				color:#000000;
+				margin:10rem 3rem 0 3rem;
+				padding:1rem;
+				height:200px;
+				font-size:1rem;
+			}
+			th, td{
+				background-color: #4cf365; 
+				border:solid 1px #000000;
+				padding:0.5rem;	
+			}
+			#tableimg{
+				display:flex;
+				justify-content:center;
+				flex-wrap:wrap;
+			}
+			img#img1{
+				width:20rem;
+			}
+		</style>
+	</head>
+	<body> 
+<!-- Kopf der Seite -->
+		<header id="header">
+				<!-- Kopf ders Kopfes der Seite -->
+				<header id="top">
+						<img id="logo" src="../img/logo.png" height="100%"/>
+						<img id="nostal" src="../img/Nostal.png" height="100%"/>
+						<img id="games" src="../img/Games.png" height="100%"/>
+						<a href="#menu" class="Icon button" id="menubar1">&#xf130;</a>
+						
+						<input id="input" type="checkbox"></input>
+				</header>
+				<!-- Auswahl Menu -->
+				<menu id="menu">
+					<a href="./Nostalgameshell.html" class="spiel startseite">Stastseite</a>
+					<a href="./pacmanhell.html" class="spiel pacman">Pacman</a>
+					<a href="./ponghell.html" class="spiel pong">Pong</a>
+					<a href="./simcityhell.html" class="spiel simcity">SimCity</a>
+					<a href="#" class="Icon" id="menubar2">&#xf36e;</a>
+				</menu>
+		</header>
+<!-- Hauptinformation der Seite -->
+		<main>
+		<!-- Haupt-Nebeninformation -->
+			<aside id="aside1">
+				<div id="sidemenu">
+					<p id="sidemenup" >
+						<h1>Schnellauswahl</h1>
+						<ul>
+							<li><a class="menubar" href="#ha1">Pac-Man</a></li>
+							<li><a class="menubar" href="#ha2">Uhrspeung des namens</a></li>
+							<li><a class="menubar" href="#ha3">Spielprenzip</a></li>
+							<li><a class="menubar" href="#ha4">Level 256</a></li>
+							<li id="fehlt"><a class="menubar" href="#ha5">Bild Pac-Man Spielfeld LvL 256</a></li>
+						</ul>
+					</p>
+				</div>
+				<h1>Grundinfo</h1>
+				<P>
+					<ul>
+						<li>Studi0:Namco</li>
+						<li>Publisher: Midway Games</li>
+						<li>Leitender Entwickler: Tōru Iwatani</li>
+						<li>Erstveröffentlichung:
+							<ul>
+								<li>Japan 22. Mai 1980</li>
+								<li>Nordamerika 26. Oktober 1980</li>
+							</ul>
+						</li>
+						<li>Genre: Maze</li>
+						<li>Spielmodus:	1 oder 2 Spieler (abwechselnde Runden)</li>
+						<li>Steuerung: Joystick (4 Richtungen)</li>
+						<li>Gehäuse: Standard und Cocktail</li>
+						<li>Arcade-System/CPU: Zilog Z80 getaktet mit 3,072 MHz</li>
+						<li>Monitor: Raster</li>
+						<li>Auflösung: 224 × 288 (Vertikal), 16 Farben</li>
+						<li>Information: Bekanntestes Arcade-Spiel; es wurde entwickelt während der sogenannten Goldenen Ära der Arcade-Spiele</li>
+					</ul>
+				
+				</P> 
+			</aside>
+<!-- Haupt-Hauptinformation Pac-Man-->
+			<main id="maincontent">
+				<div>
+					<h1 id="ha1">Pac-man</h1>
+					<p>Pac-Man (jap. パックマン, Pakkuman) ist ein Arcade- und Videospiel, welches erstmals am 22. Mai 1980 von Namco in Japan als „Puck Man“ für Arcade-Automaten veröffentlicht wurde. </p>
+					<p>Es erschienen zahlreiche Klone, Varianten und Weiterentwicklungen des Spiels für so gut wie alle Betriebssysteme. Das Original kann heute mit einem Emulator (z. B. MAME) gespielt werden, wobei die eigentlichen Spieldateien (ROMs) bei universellen Emulatoren nicht inbegriffen sind. </p>
+					<h2 id="ha2">Uhrsprung des Namens</h2>
+					<p>Der Name leitet sich von der japanischen Lautmalerei paku paku für „wiederholt den Mund öffnen und schließen“ und der Puck-förmigen Gestalt der Hauptfigur her; zudem bedeutet puck auf Englisch auch „Kobold“. Es wurde vom Spieledesigner Tōru Iwatani entworfen. Am 26. Oktober 1980 erschien das Spiel von Midway lizenziert als Pac-Man in den USA. Der Name wurde geändert, da man befürchtete, dass die Aufschrift „Puck Man“ auf dem Automaten in „Fuck Man“ abgewandelt werden könnte. Spielerisch blieb es unverändert, außer dass die vier Geister im Spiel andere Namen erhielten. </p>
+					<h2 id="ha3">Spielprenzip</h2>
+					<p>Die Spielfigur Pac-Man muss Punkte in einem Labyrinth fressen, während sie von Gespenstern verfolgt wird. Frisst man eine „Kraftpille“, kann man für eine gewisse Zeit umgekehrt selbst die nun blau eingefärbten Gespenster verfolgen. Manchmal erscheint auch Obst auf dem Spielfeld, das dem Spieler Extrapunkte einbringt, wenn man es frisst. Wenn man das Symbol nicht frisst, verschwindet es nach einiger Zeit wieder. Sind alle Punkte gefressen, gelangt man in den nächsten Level. Dieser unterscheidet sich vom vorigen im Wesentlichen nur durch die höhere Spielgeschwindigkeit (in den niedrigeren Leveln auch durch ein verändertes Gegnerverhalten). Die Steuerung erfolgt in der Arcade-Version per Joystick.</p>
+					<p>Links und rechts am Bildschirm befindet sich ein Tunnel, durch den man gehen und so die Gegner täuschen kann. Die Gespenster bewegen sich nicht zufällig. Jedes hat eine bestimmte Strategie, die den Bewegungen bzw. Eingaben des Spielers folgt.</p>
+					<p>Da das Spiel ein weibliches Publikum ansprechen sollte, gestaltete Iwatani „niedliche“ Gegner-Figuren. Pac-Mans Gegenspieler sind vier bunte Geister mit großen Augen, deren Gestalt an das fransige Ende eines Wischmopps erinnert. Die Geister zeigen jeweils ein eigenes Verhalten und tragen Namen und Spitznamen. Die Namen der Geister sind während des Attract Mode zu sehen und wurden für die US-Version geändert.  </p>
+					<h2 id="ha4">Level 256</h2>
+					<p>Obwohl das Spiel darauf ausgelegt ist, kein Ende zu nehmen, ist der „Split-Screen-Level 256“ aufgrund eines technischen Umstands unlösbar. Der linke Teil des Bildschirms zeigt den üblichen Teil des Labyrinths, während der rechte scheinbar zusammenhangslos mit Buchstaben und Symbolen gefüllt ist.</p>
+					<p>Der Levelzähler ist ein 8 Bit großer vorzeichenloser Ganzzahlwert. Beim Wechsel von Level 255 (0xFF) zu 256 läuft die Speicherstelle über und nimmt den Wert 0x00 an. Für die Zerstörung des Labyrinths sorgt eine Schleife, die Früchte am unteren Bildschirmrand zeichnet, um in den ersten sieben Leveln den aktuellen Levelstand anzugeben. Diese wird aufgerufen, wenn der Levelzähler kleiner als 0x08 ist, also auch bei Level 0x00 – für die höheren Level dagegen wird ein anderer Codeblock durchlaufen. Die Bedingung zu einem weiteren Schleifendurchlauf wird mit dem Assembler-Befehl djnz (decrement and jump if not zero) abgefragt. Da die Speicherstelle beim erstmaligen Dekrementieren nun von 0x00 auf 0xFF überläuft und ungleich 0 ist, wird die Schleife insgesamt 256-mal durchlaufen. </p>
+					<p>Ein 1 kB großer Bereich im Grafikspeicher gibt an, welches Symbol auf dem Bildschirm wo gezeichnet werden soll. Die Anordnung ist so gewählt, dass ab Adresse 0x4000 der untere zweizeilige Bildschirmrand von rechts nach links, anschließend ab Adresse 0x4040 das Spielfeld von oben rechts nach unten und ab Adresse 0x43c0 der obere Bildschirmrand angegeben ist. Dem folgt ein gleich großer und gleich angeordneter Bereich mit Farbinformationen. Im Level 256 kopiert nun die Schleife die sieben Früchte ab Adresse 0x3b08 in den Grafikspeicher, läuft aber noch weiter, obwohl anschließend keine Fruchtobjekte mehr folgen. Die Folge ist, dass die Hälfte des Spielfelds mit Daten aus dem ROM überschrieben wird, ehe die 256 Durchläufe abgeschlossen sind.</p>
+					<p>Der Level ist nicht lösbar, da in der linken Spielfeldhälfte nicht genug Punkte zum Absolvieren des Levels vorhanden sind. </p>
+					<p>Mitchell, der diesen Level nach eigenen Angaben mehrere hundert Male erreicht hat, hatte 1999 einen Preis über 100.000 US-Dollar für denjenigen ausgesetzt, der nachweisbar vor dem 1. Januar 2000 diesen Level erfolgreich meisterte. Der Preis blieb unbeansprucht. </p>
+				</div>
+			</main>
+			<div id="figure">
+				<figure>
+				<!-- Bild 1 Pac-Man Spielfeld -->
+					<img id="img1" src="../img/pacman/Pacman.png" />
+				<!-- Bildunterschrift 1 -->
+					<figcaption>Bild von Pac-Man Spielfeld</figcaption>
+				</figure>
+			</div>
+		</main>
+<!-- Nebeninformation BIld 2 Und Tabelle -->
+		<aside id="aside2">
+			<aside>
+				<div>
+					<figure>
+						<figcaption><h1 id="ha5">Bild von Pac-Man Spielfeld LVL 256 und Tabelle Spielfiguren</h1></figcaption>
+						<div id="tableimg">
+						<!-- Bild PAcman Level 256 -->
+							<img style="padding:1rem;" id="img2" src="../img/pacman/pacmanfehler.jpg" />
+						<!-- Tabelle Characthere -->
+							<table>
+								<tr>
+									<th rowspan="2">Farbe</th>
+									<th colspan="4">Puck Man (Japan)</th>
+									<th colspan="2">US-Pac-Man
+								</th></tr>
+								<tr>
+									<th>Charakter (Name)</th>
+									<th>Übersetzung</th>
+									<th>Spitzname</th>
+									<th>Übersetzung</th>
+									<th>Charakter (Name)</th>
+									<th>Spitzname
+								</th></tr>
+								<tr>
+									<td>Rot</td>
+									<td>Oikake</td>
+									<td>Verfolger</td>
+									<td>Akabei</td>
+									<td>Roter</td>
+									<td>Shadow</td>
+									<td>Blinky
+								</td></tr>
+								<tr>
+									<td>Pink</td>
+									<td>Machibuse</td>
+									<td>Hinterhalt</td>
+									<td>Pinky</td>
+									<td>Pinker</td>
+									<td>Speedy</td>
+									<td>Pinky
+								</td></tr>
+								<tr>
+									<td>Hellblau</td>
+									<td>Kimagure</td>
+									<td>launisch</td>
+									<td>Aosuke</td>
+									<td>Blauer</td>
+									<td>Bashful</td>
+									<td>Inky
+								</td></tr>
+								<tr>
+									<td>Orange</td>
+									<td>Otoboke</td>
+									<td>Dummkopf</td>
+									<td>Guzuta</td>
+									<td>Langsamer</td>
+									<td>Pokey</td>
+									<td>Clyde</td>	
+								</tr>
+							</table>
+						</div>
+					</figure>
+				</div>
+			</aside>
+		</aside>
+	</body>
+</html>
